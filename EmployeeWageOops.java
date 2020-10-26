@@ -79,10 +79,10 @@ public class EmployeeWageOops implements InEmployeeWageOops{
 	  System.out.println("Enter the Maxi.Hr per Month:");
 	  int maxhrpermonth=input.nextInt();
 	  empWageBuilder.addCompanyEmpWage(comp,emprateperhr,numberofworkingdays,maxhrpermonth);
-	  //empWageBuilder.addCompanyEmpWage("sbi", 50, 20, 100);
-	  //empWageBuilder.addCompanyEmpWage("sc", 40, 20, 100);
-	  //empWageBuilder.addCompanyEmpWage("boi", 30, 20, 100);
-	  //empWageBuilder.addCompanyEmpWage("uco", 30, 20, 100);
+	  empWageBuilder.addCompanyEmpWage("sbi", 50, 20, 100);
+	  empWageBuilder.addCompanyEmpWage("sc", 40, 20, 100);
+	  empWageBuilder.addCompanyEmpWage("boi", 30, 20, 100);
+	  empWageBuilder.addCompanyEmpWage("uco", 30, 20, 100);
 	  //empWageBuilder.addCompanyEmpWage("sbi", 50, 20, 100);
 	  empWageBuilder.computeEmpWage();
 	  System.out.println("Total wage of the searched company: " + empWageBuilder.getTotalEmpWage(comp));
